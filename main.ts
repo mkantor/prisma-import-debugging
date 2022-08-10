@@ -1,1 +1,3 @@
-console.log('Hello, world!')
+import { Prisma } from './prismastuff'
+
+declare const x: Prisma.AccountWhereInput
